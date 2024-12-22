@@ -26456,7 +26456,7 @@ const Sd = [
     {
       network: 1,
       Token: "0xF4AaA9428A881a5c054D0ED041F5749a336C9Ab5",
-      name: "MineAI",
+      name: "MysticAI",
       symbol: "MAI",
       decimals: "gwei",
       Staking: "0x856e0A5369a0ad77aa383BB7e434Bf89DDAFCBb3",
@@ -49797,51 +49797,12 @@ const OV = dt,
           }),
           X.jsx("p", {
             className: "mt-5 text-[32px] font-bold",
-            children: " MineAI Staking ",
+            children: " MysticAI Staking ",
           }),
           X.jsxs("div", {
             className: "mt-12",
             children: [
-              X.jsxs("div", {
-                className: sd,
-                children: [
-                  X.jsxs("p", {
-                    className: od,
-                    children: [" Current Daily $TAO mining: ", C, "   "],
-                  }),
-                  X.jsx("button", {
-                    className: u0,
-                    onClick: () => {
-                      N(
-                        "0x77E06c9eCCf2E797fd462A92B6D7642EF85b0A44",
-                        "wTAO",
-                        9
-                      );
-                    },
-                    children: "Add $TAO",
-                  }),
-                ],
-              }),
-              X.jsxs("div", {
-                className: sd,
-                children: [
-                  X.jsxs("p", {
-                    className: od,
-                    children: [" Current Daily $ALPH mining: ", k, "   "],
-                  }),
-                  X.jsx("button", {
-                    className: u0,
-                    onClick: () => {
-                      N(
-                        "0x590F820444fA3638e022776752c5eEF34E2F89A6",
-                        "ALPH",
-                        18
-                      );
-                    },
-                    children: "Add $ALPH",
-                  }),
-                ],
-              }),
+              
               X.jsx("div", {
                 className: sd,
                 children: X.jsxs("p", {
